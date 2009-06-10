@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{exception_notifier}
+  s.name = %q{exception_notification}
   s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -15,12 +15,12 @@ Gem::Specification.new do |s|
     "README",
      "Rakefile",
      "VERSION",
-     "exception_notifier.gemspec",
+     "exception_notification.gemspec",
      "init.rb",
      "lib/exception_notifiable.rb",
      "lib/exception_notifier.rb",
      "lib/exception_notifier_helper.rb",
-     "pkg/exception_notifier-1.0.0.gem",
+     "pkg/exception_notification-1.0.0.gem",
      "test/exception_notifier_helper_test.rb",
      "test/test_helper.rb",
      "views/exception_notifier/_backtrace.rhtml",
@@ -31,11 +31,11 @@ Gem::Specification.new do |s|
      "views/exception_notifier/_title.rhtml",
      "views/exception_notifier/exception_notification.rhtml"
   ]
-  s.homepage = %q{http://github.com/asapnet/exception_notifier}
+  s.homepage = %q{http://github.com/asapnet/exception_notification}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.3}
-  s.summary = %q{Gemification of exception_notifier plugin}
+  s.summary = %q{Gemification of exception_notification plugin}
   s.test_files = [
     "test/exception_notifier_helper_test.rb",
     "test/test_helper.rb"

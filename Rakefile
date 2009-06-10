@@ -4,10 +4,10 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "exception_notifier"
-    gem.summary = "Gemification of exception_notifier plugin"
+    gem.name = "exception_notification"
+    gem.summary = "Gemification of exception_notification plugin"
     gem.email = "kweller@asapwebsoft.com"
-    gem.homepage = "http://github.com/asapnet/exception_notifier"
+    gem.homepage = "http://github.com/asapnet/exception_notification"
     gem.authors = ["Jamis Buck", "Kevin Weller"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
@@ -48,7 +48,7 @@ Rake::RDocTask.new do |rdoc|
   end
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "exception_notifier #{version}"
+  rdoc.title = "exception_notification #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
